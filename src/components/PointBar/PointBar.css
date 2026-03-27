@@ -1,0 +1,30 @@
+.point-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.point-label {
+  font-weight: bold;
+  width: 100px;
+}
+.point-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.point-btn {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.point-value {
+  font-family: monospace;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-align: center;
+}
